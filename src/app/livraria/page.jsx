@@ -1,6 +1,7 @@
 import styles from "./livraria.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Banner from "../components/banner";
 
 export default function Home() {
   // Dados que seriam obtidos de uma API
@@ -142,6 +143,8 @@ export default function Home() {
   return (
     <div className={styles.bookstoreContainer}>
      <Header />
+
+     <Banner  />
 
       {/* NEW RELEASES SECTION */}
       <section className={`${styles.bookSection} ${styles.newReleases}`}>
