@@ -5,6 +5,7 @@ import Detach from "../components/detach";
 import styles from "./livraria.module.css";
 import Category from "../components/category";
 import Launch from "../components/launch";
+import Subscription from "../components/subscription";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
      <Detach />
      <Category />
       <Launch />
+      <Subscription />
      <Footer />
     </div>
   );
