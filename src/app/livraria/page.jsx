@@ -8,6 +8,7 @@ import Launch from "../components/launch";
 import Subscription from "../components/subscription";
 
 
+
 export default function Home() {
   return (
     <div className={styles.bookstoreContainer}>
